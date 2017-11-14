@@ -21,11 +21,18 @@ module.exports = module.exports.toString();
 /***/ 139:
 /***/ (function(module, exports) {
 
-module.exports = "<h1>\n  {{title}}\n</h1>\n<home></home>"
+module.exports = "<h1>\n  {{title}}\n</h1>\n<app-home></app-home>"
 
 /***/ }),
 
-/***/ 170:
+/***/ 140:
+/***/ (function(module, exports) {
+
+module.exports = "<h2>My name is {{title}}</h2>"
+
+/***/ }),
+
+/***/ 171:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(74);
@@ -168,8 +175,8 @@ var HomeComponent = (function () {
 }());
 HomeComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_5" /* Component */])({
-        selector: 'home',
-        template: "My name is Maantu",
+        selector: 'app-home',
+        template: __webpack_require__(140)
     })
 ], HomeComponent);
 
@@ -189,5 +196,5 @@ var environment = {
 
 /***/ })
 
-},[170]);
+},[171]);
 //# sourceMappingURL=main.bundle.js.map
