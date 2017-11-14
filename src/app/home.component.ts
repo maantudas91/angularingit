@@ -1,10 +1,9 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'home',
-  template: `My name is Maantu`,
+  selector: 'app-home',
+  templateUrl: './home.component.html'
 })
-
 export class HomeComponent {
   title = 'Maantu Das';
 }
